@@ -6,6 +6,8 @@ const mainRoutes = require('./routes');
 // Init express app
 const app = express();
 
+app.set('port', (process.env.PORT || 5000));
+
 // Static Folder
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -16,8 +18,8 @@ app.use(mainRoutes);
 //app.set('view engine', 'pug');
 
 // Router Listening on port 3000
-app.listen(3000, () => {
-    console.log('App running on localhost:3000');
+app.listen(app.get('port'), () => {
+    console.log('Sijui Node app running on port', app.get('port'));
 });
 
 
