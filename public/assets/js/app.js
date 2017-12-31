@@ -151,7 +151,7 @@ $(document).ready(function(){
 	// Read the page to the user
 	function readIt() {
 		//speak text audibly 
-		var foxReadOne = $("#foxPanel").find('[data-item="1"]').find('p').text();
+		var foxReadOne = $("#foxPanel").find('li[data-item="1"]').find('p').text();
 		var foxReadTwo = $("#foxPanel").find('li[data-item="2"]').find('p').text();
 		var foxReadThree = $("#foxPanel").find('li[data-item="3"]').find('p').text();
 
@@ -163,9 +163,9 @@ $(document).ready(function(){
 		var nyReadTwo = $("#nyTimesPanel").find('li[data-item="2"]').find('p').text();
 		var nyReadThree = $("#nyTimesPanel").find('li[data-item="3"]').find('p').text();
 
-		var twitterReadOne = $("#twitterPanel").find('li[data-item="1"').find('span').text();
-		var twitterReadTwo = $("#twitterPanel").find('li[data-item="2"').find('span').text();
-		var twitterReadThree = $("#twitterPanel").find('li[data-item="3"').find('span').text();
+		var twitterReadOne = $("#twitterPanel").find('li[data-item="1"]').find('span').text();
+		var twitterReadTwo = $("#twitterPanel").find('li[data-item="2"]').find('span').text();
+		var twitterReadThree = $("#twitterPanel").find('li[data-item="3"]').find('span').text();
 
 		responsiveVoice.speak("Fox News Number One. " + foxReadOne);
 		responsiveVoice.speak("Fox News Number Two. " + foxReadTwo);
