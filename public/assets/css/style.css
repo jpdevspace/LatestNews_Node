@@ -145,6 +145,15 @@ h5.small {
 .a-title {
     display: inline;
 }
+footer{
+    background-color: #222;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    padding: 4em;
+    margin-top: 5em;
+    font-family: 'Cutive', serif;
+}
 
 @media screen and (max-width: 500px){
     .a-body img{
