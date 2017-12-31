@@ -8,7 +8,7 @@ Technologies used for this project: Node, Express, Firebase, New York Times API,
 
 ![alt text][screenshot]
 
-[screenshot]: https://github.com/jpdevspace/Firebase-Multiplayer-Game/blob/master/assets/imgs/screenshot.png "Game Screenshot"
+[screenshot]: https://github.com/jpdevspace/LatestNews_Node/blob/master/public/assets/imgs/screenshot.png "App Screenshot"
 
 ### INSTRUCTIONS
 
