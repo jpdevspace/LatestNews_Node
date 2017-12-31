@@ -151,7 +151,7 @@ $(document).ready(function(){
 	// Read the page to the user
 	function readIt() {
 		//speak text audibly 
-		var foxReadOne = $("#foxPanel").find('li[data-item="1"]').find('p').text();
+		var foxReadOne = $("#foxPanel").find('[data-item="1"]').find('p').text();
 		var foxReadTwo = $("#foxPanel").find('li[data-item="2"]').find('p').text();
 		var foxReadThree = $("#foxPanel").find('li[data-item="3"]').find('p').text();
 
